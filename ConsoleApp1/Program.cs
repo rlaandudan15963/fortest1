@@ -53,7 +53,7 @@ namespace ConsoleApp1
                 b.I = double.Parse(enterV);
                 for(int i = 0; i < 8; i++)
                 {
-
+                    Console.WriteLine(b.I * b[i]);
                 }
             }
             else
