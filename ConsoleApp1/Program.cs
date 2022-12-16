@@ -10,7 +10,7 @@ namespace ConsoleApp1
     class test<T>
     {
         T i;
-        T[] j = new T[10];
+        T[] j = new T[8];
         public T I
         {
             get
@@ -38,6 +38,10 @@ namespace ConsoleApp1
         {
             test<int> a = new test<int>();
             test<double> b = new test<double>();
+            for(int i = 0; i < 8; i++)
+            {
+                a[i] = 2 ^ i - 2 ^ (i - 1);
+            }
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
             if (enterV.Equals("."))
