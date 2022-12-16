@@ -41,7 +41,14 @@ namespace ConsoleApp1
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
             if (enterV.Equals("."))
+            {
                 b.I = double.Parse(enterV);
+
+            }
+            else
+            {
+                a.I = int.Parse(enterV);
+            }
         }
     }
 }
