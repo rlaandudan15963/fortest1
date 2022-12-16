@@ -38,7 +38,7 @@ namespace ConsoleApp1
         {
             test<int> a = new test<int>();
             test<double> b = new test<double>();
-
+            Console.Write("enter value : ");
 
         }
     }
