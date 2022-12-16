@@ -44,7 +44,7 @@ namespace ConsoleApp1
             }
             for(int i = 0; i < 8; i++)
             {
-
+                b[i] = 10 * i;
             }
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
