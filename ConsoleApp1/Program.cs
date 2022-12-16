@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class test
+    class test<T>
     {
         int i;
-        int[] j = new int[10];
+        T[] j = new T[10];
         public int I
         {
             get
@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 i = value;
             }
         }
-        public int this[int idx]
+        public T this[int idx]
         {
             get
             {
@@ -36,8 +36,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            test a = new test();
-            
+            test<int> a = new test<int>();
+            test<double> b = new test<double>();
+
 
         }
     }
