@@ -71,7 +71,7 @@ namespace ConsoleApp1
                 Console.WriteLine();
                 for(int i = 0; i < 8; i++)
                 {
-                    Console.Write(2 ^ i);
+                    Console.Write((2 ^ i).ToString() + "\t");
                 }
             }
         }
