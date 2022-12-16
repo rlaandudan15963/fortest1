@@ -9,9 +9,9 @@ namespace ConsoleApp1
 {
     class test<T>
     {
-        int i;
+        T i;
         T[] j = new T[10];
-        public int I
+        public T I
         {
             get
             {
@@ -39,7 +39,9 @@ namespace ConsoleApp1
             test<int> a = new test<int>();
             test<double> b = new test<double>();
             Console.Write("enter value : ");
-
+            string enterV = Console.ReadLine();
+            if (enterV.Equals("."))
+                b.I = double.Parse(enterV);
         }
     }
 }
