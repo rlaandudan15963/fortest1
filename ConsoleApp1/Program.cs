@@ -55,7 +55,7 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(b.I * b[i]);
                 }
-            }
+            } 
             else
             {
                 a.I = int.Parse(enterV);
