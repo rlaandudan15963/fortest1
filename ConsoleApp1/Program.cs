@@ -68,7 +68,10 @@ namespace ConsoleApp1
                 {
                     Console.Write(a[i] + "\t");
                 }
+                for(int i = 0; i < 8; i++)
+                {
 
+                }
             }
         }
     }
