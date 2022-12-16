@@ -37,13 +37,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             test a = new test();
-            a.I = 4;
-            Console.WriteLine(a.I);
-            for (int i = 0; i < a.I; i++)
-            {
-                a[i] = i * 2 - 3;
-                Console.WriteLine(a[i]);
-            }
+            
 
         }
     }
