@@ -63,6 +63,7 @@ namespace ConsoleApp1
                 {
                     Console.Write(a.I + 1 + a[i] + "\t");
                 }
+                Console.WriteLine();
             }
         }
     }
