@@ -47,7 +47,7 @@ namespace ConsoleApp1
             {
                 b[i] = 10 * i;
             }
-            Console.WriteLine("show int or double methi ");
+            Console.WriteLine("show int or double methi  ");
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
             if (enterV.IndexOf(".") > -1)
