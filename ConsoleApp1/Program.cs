@@ -40,7 +40,7 @@ namespace ConsoleApp1
             test<double> b = new test<double>();
             for(int i = 0; i < 8; i++)
             {
-                a[i] = 2 ^ i - 2 ^ (i - 1);
+                a[i] = 2 ^ i - 3 ^ (i - 4);
             }
             for(int i = 0; i < 8; i++)
             {
