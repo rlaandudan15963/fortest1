@@ -48,7 +48,7 @@ namespace ConsoleApp1
             }
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
-            if (enterV.Equals("."))
+            if (enterV.IndexOf(".") > -1)
             {
                 b.I = double.Parse(enterV);
                 for(int i = 0; i < 8; i++)
@@ -61,7 +61,7 @@ namespace ConsoleApp1
                 a.I = int.Parse(enterV);
                 for(int i =0; i < 8; i++)
                 {
-
+                    Console.Write(a.I + a[i] + "\t");
                 }
             }
         }
