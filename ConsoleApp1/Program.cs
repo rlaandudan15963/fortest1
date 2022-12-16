@@ -51,7 +51,10 @@ namespace ConsoleApp1
             if (enterV.Equals("."))
             {
                 b.I = double.Parse(enterV);
+                for(int i = 0; i < 8; i++)
+                {
 
+                }
             }
             else
             {
