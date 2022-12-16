@@ -42,6 +42,10 @@ namespace ConsoleApp1
             {
                 a[i] = 2 ^ i - 2 ^ (i - 1);
             }
+            for(int i = 0; i < 8; i++)
+            {
+
+            }
             Console.Write("enter value : ");
             string enterV = Console.ReadLine();
             if (enterV.Equals("."))
