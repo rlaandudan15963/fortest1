@@ -59,6 +59,10 @@ namespace ConsoleApp1
             else
             {
                 a.I = int.Parse(enterV);
+                for(int i =0; i < 8; i++)
+                {
+
+                }
             }
         }
     }
