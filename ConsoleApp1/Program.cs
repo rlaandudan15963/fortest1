@@ -42,6 +42,7 @@ namespace ConsoleApp1
             {
                 a[i] = 2 ^ i - 3 ^ (i - 4);
             }
+            
             for(int i = 0; i < 8; i++)
             {
                 b[i] = 10 * i;
