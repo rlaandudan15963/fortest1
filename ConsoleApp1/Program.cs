@@ -15,7 +15,7 @@ namespace ConsoleApp1
         {
             get
             {
-                return (i * 2) + 1;
+                return i;
             }
             set
             {
@@ -26,10 +26,11 @@ namespace ConsoleApp1
         {
             get
             {
-                return (j[idx] * 3) - 2;
+                return j[idx];
             }
             set { j[idx] = value; }
         }
+        
     }
     internal class Program
     {
@@ -43,6 +44,7 @@ namespace ConsoleApp1
                 a[i] = i * 2 - 3;
                 Console.WriteLine(a[i]);
             }
+
         }
     }
 }
