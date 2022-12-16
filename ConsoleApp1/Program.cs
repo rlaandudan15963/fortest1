@@ -61,7 +61,7 @@ namespace ConsoleApp1
                 a.I = int.Parse(enterV);
                 for(int i =0; i < 8; i++)
                 {
-                    Console.Write(a.I + a[i] + "\t");
+                    Console.Write(a.I + 1 + a[i] + "\t");
                 }
             }
         }
